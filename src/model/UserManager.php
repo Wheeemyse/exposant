@@ -16,7 +16,8 @@ class UserManager extends Manager{
     return $result;
   }
 }
-  // 
+
+  //
   // public function insertApplication($societe, $registre, $adresse, $codepostal, $ville, $telephone, $activite, $nombre_chalet, $location_mono, $location_tri, $fin_anticipe, $placement_angle){
   //    return $result = $this -> rprepare("INSERT INTO dossier_exposant (societe, numero_registre, adresse, code_postal, ville, telephone, type_activite, nombre_chalet, location_chalet_mono, location_chalet_tri, arret_anticipe, placement_angle) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",array($societe, $registre, $adresse, $codepostal, $ville, $telephone, $activite, $nombre_chalet, $location_mono, $location_tri, $fin_anticipe, $placement_angle));
   //

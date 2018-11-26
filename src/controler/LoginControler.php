@@ -18,7 +18,6 @@ class LoginControler extends Controler {
       }
       else {
         throw new Exception("Une erreur est survenu lors de l'inscription");
-
       }
     }
   }
@@ -40,13 +39,21 @@ class LoginControler extends Controler {
             $_SESSION["name"] = $user["name"];
             $_SESSION["firstname"] = $user["firstname"];
             $_SESSION["date"] = $user["date_inscription"];
+            $_SESSION["user_id"] = $user["id_user"];
             $this -> load("userview/userHomeView.php");
+          }
+          else{
+            throw new Exception("Ce mot de passe est incorrect");
           }
         }
         else {
           throw new Exception("Le compte associé à cette email n'existe pas");
         }
       }
+    else{
+      throw new Exception("Aucun compte ne correspond à cette email");
+
+    }
   }
 
   public function SignOut(){

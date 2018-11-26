@@ -26,6 +26,7 @@ class FormChecker{
             throw new Exception("Le champ 'email' ne peut être vide .");
         }
     }
+    
     public function verifPassword(String $fieldName ,int $minLength = 0){
         $password = htmlspecialchars($_POST[$fieldName]);
         if(isset($password) && !empty($password)){

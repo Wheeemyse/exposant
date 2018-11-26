@@ -6,7 +6,7 @@ ob_start();
 <h1>Inscription</h1>
 <div class="form-container" style="text-align: center;">
 
-  <form class="" action="index.php?router=user&action=application" method="post">
+  <form class="" action="index.php?router=login&action=signup" method="post">
 
     <label for="nom" style="margin-top:20px">Nom:</label><br>
     <input type="text" id="nom" name="name" value="" required><br>

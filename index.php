@@ -24,6 +24,10 @@ try {
             $loginRouter -> callControler($loginControler, "signOut");
             break;
 
+          case 'signup':
+            $loginRouter -> callControler($loginControler, "signUp");
+            break;
+
           default:
             // code...
             break;
@@ -64,11 +68,6 @@ try {
           case 'connection':
             $mainRouter -> callControler($mainControler, "goConnection");
             break;
-
-          case 'signup':
-            $mainRouter -> callControler($loginControler, "signUp");
-            break;
-
 
           default:
             $mainRouter -> callControler($mainControler, "goHome");

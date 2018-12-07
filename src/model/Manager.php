@@ -22,18 +22,18 @@ class Manager{
           }
       }
 
+      protected function rprepare(String $sql,$values = array()){
+        $request = $this->request()->prepare($sql);
+        $request->execute($values);
+        return $request;
+      }
+
       protected function request(){
           return $this->_pdo;
       }
 
       protected function rquerry($sql){
           return $this->request()->querry($sql);
-      }
-
-      protected function rprepare(String $sql,$values = array()){
-        $request = $this->request()->prepare($sql);
-        $request->execute($values);
-        return $request;
       }
 
       protected function canExecute($function){

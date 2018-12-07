@@ -17,7 +17,7 @@ class LoginControler extends Controler {
         echo "Vous avez été inscrit!";
       }
       else {
-        throw new Exception("Une erreur est survenu lors de l'inscription");
+        throw new Exception("Une erreur est survenue lors de l'inscription");
       }
     }
   }
@@ -40,7 +40,14 @@ class LoginControler extends Controler {
             $_SESSION["firstname"] = $user["firstname"];
             $_SESSION["date"] = $user["date_inscription"];
             $_SESSION["user_id"] = $user["id_user"];
-            $this -> load("userview/userHomeView.php");
+            $_SESSION["user_type"] = $user["user_type"];
+              if ($_SESSION["user_type"] == "1"){
+                $this -> load("adminview/adminHomeView.php");
+              }
+            else {
+              $this -> load("userview/userHomeView.php");
+            }
+
           }
           else{
             throw new Exception("Ce mot de passe est incorrect");

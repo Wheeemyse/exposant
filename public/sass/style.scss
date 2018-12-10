@@ -45,6 +45,9 @@ table {
 body{
   background-color: #191d3c;
 }
+// p{
+// 	font-family: 'Montserrat';
+// }
 
 .imgheader{
   width: 100vw;
@@ -53,9 +56,9 @@ body{
 
 .logo{
   width: auto;
-  height: 65px;
+  height: 50px;
   padding-left: 15px;
-  vertical-align: top;
+  vertical-align: bottom;
 
   &:hover{
     filter: drop-shadow(3px 5px 8px gold);
@@ -67,5 +70,62 @@ body{
   background-color: #23295b;
 }
 .nav-link:hover{
-      background-color: #216e7d;
+  background-color: #216e7d;
+}
+//end of header css
+.home-container{
+	width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+.page-title{
+	text-align: center;
+	color: #f8f8ff;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 2px 2px 3px #ff1f23;
+	font-weight: 700;
+	font-size: 5.5rem;
+}
+.home-image{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+}
+.home-text{
+	color: #f8f8ff;
+	font-size: 25px;
+	margin-top: 50px;
+	padding: 15px;
+	background-color: #061055;
+	border-radius: 15px;
+}
+.home-caption{
+	color: #f8f8ff;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 70px;
+	text-shadow: 3px 3px 3px #ff1f23;
+}
+.signup-button{
+	display: block !important;
+	margin: 20px auto;
+}
+
+@media only screen and (max-width:1200px){
+	.home-container{
+		width: 100%;
+		padding: 0 15px;
+	}
+	.page-title{
+		font-size: 3rem;
+	}
+	.home-text{
+		font-size: 20px;
+	}
+	.home-caption{
+		font-size: 30px;
+	}
+	.home-image{
+		width: 70%;
+	}
 }

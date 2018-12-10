@@ -60,31 +60,108 @@ body {
   background-color: #191d3c;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .imgheader {
   width: 100vw;
   height: auto;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .logo {
   width: auto;
-  height: 65px;
+  height: 50px;
   padding-left: 15px;
-  vertical-align: top;
+  vertical-align: bottom;
 }
-/* line 60, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .logo:hover {
   filter: drop-shadow(3px 5px 8px gold);
   cursor: pointer;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .navbar {
   background-color: #23295b;
 }
 
-/* line 69, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .nav-link:hover {
   background-color: #216e7d;
+}
+
+/* line 76, ../sass/style.scss */
+.home-container {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 81, ../sass/style.scss */
+.page-title {
+  text-align: center;
+  color: #f8f8ff;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px 3px #ff1f23;
+  font-weight: 700;
+  font-size: 5.5rem;
+}
+
+/* line 89, ../sass/style.scss */
+.home-image {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+/* line 94, ../sass/style.scss */
+.home-text {
+  color: #f8f8ff;
+  font-size: 25px;
+  margin-top: 50px;
+  padding: 15px;
+  background-color: #061055;
+  border-radius: 15px;
+}
+
+/* line 102, ../sass/style.scss */
+.home-caption {
+  color: #f8f8ff;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 70px;
+  text-shadow: 3px 3px 3px #ff1f23;
+}
+
+/* line 109, ../sass/style.scss */
+.signup-button {
+  display: block !important;
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 115, ../sass/style.scss */
+  .home-container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* line 119, ../sass/style.scss */
+  .page-title {
+    font-size: 3rem;
+  }
+
+  /* line 122, ../sass/style.scss */
+  .home-text {
+    font-size: 20px;
+  }
+
+  /* line 125, ../sass/style.scss */
+  .home-caption {
+    font-size: 30px;
+  }
+
+  /* line 128, ../sass/style.scss */
+  .home-image {
+    width: 70%;
+  }
 }

@@ -69,4 +69,8 @@ class AdminControler extends Controler {
     }
   }
 
+  public function goAdminHome(){
+    $this -> load("adminview/adminHomeView.php");
+  }
+
 }

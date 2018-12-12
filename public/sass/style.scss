@@ -45,9 +45,9 @@ table {
 body{
   background-color: #191d3c;
 }
-// p{
-// 	font-family: 'Montserrat';
-// }
+p{
+	font-family: 'Montserrat';
+}
 
 .imgheader{
   width: 100vw;
@@ -58,7 +58,7 @@ body{
   width: auto;
   height: 50px;
   padding-left: 15px;
-  vertical-align: bottom;
+  vertical-align: middle;
 
   &:hover{
     filter: drop-shadow(3px 5px 8px gold);
@@ -92,11 +92,11 @@ body{
 	width: 500px;
 }
 .home-text{
-	color: #f8f8ff;
+	color: #191D3C;
 	font-size: 25px;
 	margin-top: 50px;
 	padding: 15px;
-	background-color: #061055;
+	background-color: #fff;
 	border-radius: 15px;
 }
 .home-caption{
@@ -129,3 +129,50 @@ body{
 		width: 70%;
 	}
 }
+//End Of commun CSS
+.inputform{
+	color: #fff !important;
+}
+.labelform{
+	color: #fff !important;
+}
+.labeltextarea{
+	margin-top: 5px !important;
+}
+.labelform option{
+	color: #fff !important;
+}
+input.select-dropdown {
+	color: #fff;
+}
+.dropdown-content{
+	background-color: #2A4A87 !important;
+}
+ul li>span{
+	color: #fff !important;
+}
+// END of form css
+.button-expo{
+	margin: 20px 0 !important;
+	background-color: #2a4a87 !important;
+	border-radius: 6px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+	color: #fff;
+}
+tr{
+	border: solid 2px #fff;
+	border-radius: 10px;
+}
+tr:nth-child(1){background: rgb(33, 110, 125) }
+tr:nth-child(even){background-color: #191d3c}
+td:nth-child(even){background-color: rgba(#4a4242, 0.67)}

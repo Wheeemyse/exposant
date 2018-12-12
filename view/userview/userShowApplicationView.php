@@ -4,10 +4,45 @@ $title = 'Dossier exposant';
 ob_start();
 ?>
 
-<h1>Mon dossier exposant</h1>
-<div>
+<h1 class="page-title">Mon dossier exposant</h1>
+<div class="home-container">
 
-    <p><?= $userFolder['societe'] ?></p>
+  <div style="overflow-x:auto;">
+    <table>
+      <tr>
+        <th>Société</th>
+        <th>N° Registre</th>
+        <th>Adresse</th>
+        <th>Code postal</th>
+        <th>Ville</th>
+        <th>telephone</th>
+        <th>Type activité</th>
+        <th>Nombre de chalet</th>
+        <th>Format chalet monophasé</th>
+        <th>Format chalet triphasé</th>
+        <th>Fin anticipé</th>
+        <th>Angle place ducale</th>
+        <th>Etat dossier</th>
+      </tr>
+      <tr>
+        <td><p><?= $userFolder['societe'] ?></p></td>
+        <td><p><?= $userFolder['numero_registre'] ?></p></td>
+        <td><p><?= $userFolder['adresse'] ?></p></td>
+        <td><p><?= $userFolder['code_postal'] ?></p></td>
+        <td><p><?= $userFolder['ville'] ?></p></td>
+        <td><p><?= $userFolder['telephone'] ?></p></td>
+        <td><p><?= $userFolder['type_activite'] ?></p></td>
+        <td><p><?= $userFolder['nombre_chalet'] ?></p></td>
+        <td><p><?= $userFolder['location_chalet_mono'] ?></p></td>
+        <td><p><?= $userFolder['location_chalet_tri'] ?></p></td>
+        <td><p><?= $userFolder['arret_anticipe'] ?></p></td>
+        <td><p><?= $userFolder['placement_angle'] ?></p></td>
+        <td><p><?= $userFolder['id_etat'] ?></p><br></td>
+      </tr>
+    </table>
+  </div>
+
+    <!-- <p><?= $userFolder['societe'] ?></p>
     <form class="" action="index.php?router=user&action=change_user_societe" method="post">
       <input type="text" name="changesociete" value="">
       <input type="submit" name="" value="">
@@ -83,7 +118,7 @@ ob_start();
     <form class="" action="index.html" method="post">
       <input type="text" name="placement_angle" value="">
       <input type="submit" name="" value="">
-    </form>
+    </form> -->
 
 </div>
 

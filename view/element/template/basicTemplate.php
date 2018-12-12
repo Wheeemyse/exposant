@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title><?= $title ?></title>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Montserrat:500" rel="stylesheet">
-    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="favicon-32x32.png">
   </head>
   <body>
     <header>

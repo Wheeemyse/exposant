@@ -60,6 +60,11 @@ body {
   background-color: #191d3c;
 }
 
+/* line 48, ../sass/style.scss */
+p {
+  font-family: 'Montserrat';
+}
+
 /* line 52, ../sass/style.scss */
 .imgheader {
   width: 100vw;
@@ -71,7 +76,7 @@ body {
   width: auto;
   height: 50px;
   padding-left: 15px;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 /* line 63, ../sass/style.scss */
 .logo:hover {
@@ -115,11 +120,11 @@ body {
 
 /* line 94, ../sass/style.scss */
 .home-text {
-  color: #f8f8ff;
+  color: #191D3C;
   font-size: 25px;
   margin-top: 50px;
   padding: 15px;
-  background-color: #061055;
+  background-color: #fff;
   border-radius: 15px;
 }
 
@@ -164,4 +169,81 @@ body {
   .home-image {
     width: 70%;
   }
+}
+/* line 133, ../sass/style.scss */
+.inputform {
+  color: #fff !important;
+}
+
+/* line 136, ../sass/style.scss */
+.labelform {
+  color: #fff !important;
+}
+
+/* line 139, ../sass/style.scss */
+.labeltextarea {
+  margin-top: 5px !important;
+}
+
+/* line 142, ../sass/style.scss */
+.labelform option {
+  color: #fff !important;
+}
+
+/* line 145, ../sass/style.scss */
+input.select-dropdown {
+  color: #fff;
+}
+
+/* line 148, ../sass/style.scss */
+.dropdown-content {
+  background-color: #2A4A87 !important;
+}
+
+/* line 151, ../sass/style.scss */
+ul li > span {
+  color: #fff !important;
+}
+
+/* line 155, ../sass/style.scss */
+.button-expo {
+  margin: 20px 0 !important;
+  background-color: #2a4a87 !important;
+  border-radius: 6px;
+}
+
+/* line 160, ../sass/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+/* line 167, ../sass/style.scss */
+th, td {
+  text-align: left;
+  padding: 8px;
+  color: #fff;
+}
+
+/* line 172, ../sass/style.scss */
+tr {
+  border: solid 2px #fff;
+  border-radius: 10px;
+}
+
+/* line 176, ../sass/style.scss */
+tr:nth-child(1) {
+  background: #216e7d;
+}
+
+/* line 177, ../sass/style.scss */
+tr:nth-child(even) {
+  background-color: #191d3c;
+}
+
+/* line 178, ../sass/style.scss */
+td:nth-child(even) {
+  background-color: rgba(74, 66, 66, 0.67);
 }

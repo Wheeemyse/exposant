@@ -70,7 +70,7 @@ try {
       case 'admin':
         switch ($_GET["action"]) {
           case 'home':
-            $adminRouter -> callControler($adminControler, "goHome");
+            $adminRouter -> callControler($adminControler, "goAdminHome");
             break;
 
           case 'show_application':

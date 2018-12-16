@@ -20,11 +20,10 @@
       <li><a class="nav-link" href="index.php?router=user&action=home">Profil</a></li>
       <li><a  class="nav-link" href="index.php?router=login&action=signout">Deconnexion</a></li>
     </ul>
-
     <div class="parallax-container">
-      <div class="parallax"><img src="public/img/header.jpg"></div>
+      <div class="parallax"><img src="public/img/header31.png"></div>
     </div>
-    <!-- <img src="public/img/header.jpg" class="imgheader" alt=""> -->
+    
 
 <?php }
 elseif(isset($_SESSION["user_type"]) && $_SESSION["user_type"] == 1){ ?>
@@ -44,12 +43,11 @@ elseif(isset($_SESSION["user_type"]) && $_SESSION["user_type"] == 1){ ?>
 
   <ul id="mobile-demo" class="sidenav">
     <li><a class="nav-link" href="index.php">Accueil</a></li>
-    <li><a class="nav-link" href="index.php?router=user&action=home">Profil</a></li>
-    <li><a  class="nav-link" href="index.php?router=login&action=signout">Deconnexion</a></li>
+    <li><a class="nav-link" href="index.php?router=admin&action=home">Profil</a></li>
+    <li><a class="nav-link" href="index.php?router=login&action=signout">Deconnexion</a></li>
   </ul>
-
   <div class="parallax-container">
-    <div class="parallax"><img src="public/img/header.jpg"></div>
+    <div class="parallax"><img src="public/img/header31.png"></div>
   </div>
 
 <?php }
@@ -75,7 +73,7 @@ else{ ?>
     <li><a  class="nav-link" href="index.php?router=mainRouter&action=inscription">Inscription</a></li>
   </ul>
   <div class="parallax-container">
-    <div class="parallax"><img src="public/img/header.jpg"></div>
+    <div class="parallax"><img src="public/img/header31.png"></div>
   </div>
 
 

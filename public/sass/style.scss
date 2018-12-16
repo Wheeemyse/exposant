@@ -48,6 +48,9 @@ body{
 p{
 	font-family: 'Montserrat';
 }
+input{
+	color: #fff;
+}
 
 .imgheader{
   width: 100vw;
@@ -109,6 +112,8 @@ p{
 .signup-button{
 	display: block !important;
 	margin: 20px auto;
+	width: 160px;
+	border-radius: 30px !important;
 }
 
 @media only screen and (max-width:1200px){
@@ -163,16 +168,48 @@ table {
   width: 100%;
   border: 1px solid #ddd;
 }
-
 th, td {
   text-align: left;
   padding: 8px;
 	color: #fff;
 }
 tr{
-	border: solid 2px #fff;
+	border: solid 2px #fff !important;
 	border-radius: 10px;
 }
-tr:nth-child(1){background: rgb(33, 110, 125) }
-tr:nth-child(even){background-color: #191d3c}
-td:nth-child(even){background-color: rgba(#4a4242, 0.67)}
+tr:nth-child(1){
+	background: rgb(33, 110, 125);
+}
+tr:nth-child(even){
+	background-color: #191d3c;
+}
+td:nth-child(even){
+	background-color: rgba(#4a4242, 0.67);
+}
+//End of page CSS
+
+.home-footer{
+	background-color: #216E7D;
+	min-height: 200px;
+	text-align: center;
+}
+.footer-title{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	padding-top: 20px;
+	font-size: 50px;
+	color: #7fffd4;
+}
+.footer-separator{
+	padding-bottom: 25px;
+	color: black;
+}
+.footer-link{
+	color: #fff;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}

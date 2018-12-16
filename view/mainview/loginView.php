@@ -16,7 +16,7 @@ ob_start();
       <label class="labelform" for="mdp" style="margin-top:20px">Mot de passe:</label><br>
       <input type="password" name="password_signin" id="password_signin" value="" required><br>
     </div>
-    <input type="submit" name="send" value="Connexion">
+    <input class="waves-effect waves-light btn-large signup-button" type="submit" name="send" value="Connexion">
 
   </form>
 
